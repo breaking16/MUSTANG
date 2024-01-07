@@ -335,3 +335,33 @@ a {
   background-color: #5a0d67;
   height: 3px;
 }
+
+.contacts__inner{
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts__list{
+  list-style: none;
+}
+
+.contacts__item{
+  margin-bottom: 20px;
+}
+
+.contacts__item-title{
+  color: #5a0d67;
+}
+
+.contacts__form{
+  background-color: #21062a;
+  padding: 50px 75px 57px;
+}
+
+.contacts__title{
+  color: #fff;
+}
+
+.contacts__title::after{
+  background-color: #fff;
+}
