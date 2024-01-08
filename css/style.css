@@ -418,6 +418,7 @@ a {
     width: 450px;
   }
 }
+
 @media (max-width: 1024px) {
   .header__images {
     width: 80%;
@@ -443,9 +444,15 @@ a {
     width: 100%;
     margin-right: 0;
   }
+  .benefits__images {
+    display: none;
+  }
 }
 
 @media (max-width: 900px) {
+  .header__images {
+    width: 80%;
+  }
   .phone {
     font-size: 24px;
     line-height: 36px;
@@ -462,6 +469,39 @@ a {
   .header__social {
     padding: 30px 0 20px 53px;
   }
+  .contacts__inner {
+    display: block;
+    text-align: center;
+  }
+  .contacts__list {
+    margin-bottom: 30px;
+  }
+  .contacts__input {
+    width: 100%;
+  }
+  .contacts__btn {
+    margin-top: 20px;
+  }
+  .contacts__title {
+    text-align: center;
+    margin-left: 0;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 768px) {
+  .benefits__inner {
+    text-align: center;
+  }
+  .benefits__list {
+    padding: 25px 15px;
+  }
+  .benefits__item {
+    width: 100%;
+  }
+  .benefits__title {
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 600px) {
@@ -470,7 +510,7 @@ a {
     text-align: center;
   }
   .header__social {
-    padding: 30px 0 20px 0;
+    padding: 30px 0 20px 0px;
   }
   .social {
     justify-content: center;
@@ -496,6 +536,13 @@ a {
   }
   .services__content {
     text-align: center;
+  }
+  .benefits__item-num {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .carousel__item-img {
+    width: 100%;
   }
 }
 
@@ -531,13 +578,24 @@ a {
   .button--decor::after {
     margin-left: 110px;
   }
+  .services__inner,
+  .benefits,
+  .carousel {
+    margin-bottom: 50px;
+  }
+  .carousel .slick-dots button {
+    width: 10px;
+  }
+  .contacts__form {
+    padding: 50px 10px 57px;
+  }
+  .button--decor::before,
+  .button--decor::after {
+    display: none;
+  }
 }
 
 @media (max-width: 360px) {
-  .button--decor::after,
-  .button--decor::before {
-    display: none;
-  }
 }
 
 @media (max-width: 340px) {
